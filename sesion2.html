@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>sesión 2 - estilos</title>
+
+	<style>
+		p{
+			color: blue;
+			font-style: italic;
+		}
+
+		#nose{
+			color:green;
+		}
+
+		.importante{
+			color:red;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	</style>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<h1 style="color:red; font-family: Arial">SESIÓN 2 - ESTILOS</h1>	
+	<p id="fecha">24/10/2019</p>
+	<h2 id="nose">Métodos para vincular reglas <span class="importante">css</span> al documento</h2>
+	<p id="pmetodos">Existen 3 métodos para vincular estilos a la estructura html. Son los siguientes:</p>
+	<ol>
+		<li>Mediante el atributo style</li>
+		<li>Mediante la etiqueta style</li>
+		<li class="importante">Mediante un documento .css</li>
+	</ol>
+	<h2>Tipos de selectores CSS:</h2>
+	<p>Existen 3 selectores diferentes para aplicar css a los elementos html:</p>
+	<ul>
+		<li>Selector de etiqueta (ejemplo: &lt;cite&gt;)</li>
+		<li>Selector de id (ejemplo: #container)</li>
+		<li>Selector de clase (ejemplo: .alerta)</li>
+	</ul>
+	<p class="explicacion">El selector de etiqueta aplica las reglas css a todas las etiquetas seleccionadas</p>
+	<p class="explicacion">El selector de id aplica las reglas css al elemento que tenga ese id (No puede haber dos elementos con el mismo id)</p>
+	<p class="explicacion">El selector clase aplica las reglas css a TODOS los elementos html que tengan el atributo "class" con el nombre de ese selector</p>
+
+	
+</body>
+</html>
